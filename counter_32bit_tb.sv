@@ -10,6 +10,7 @@ logic enable;
 logic reset;
 logic [31:0] count;
 bit timer_event;
+// clock intilization
 initial clk=1;
   
 counter_32bit DUT(.*);
